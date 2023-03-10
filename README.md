@@ -1,34 +1,56 @@
-# Text Editor Starter Code
-AS A developer
-I WANT to create notes or code snippets with or without an internet connection
-SO THAT I can reliably retrieve them for later use
-GIVEN a text editor web application
-WHEN I open my application in my editor
-THEN I should see a client server folder structure
-WHEN I run `npm run start` from the root directory
-THEN I find that my application should start up the backend and serve the client
-WHEN I run the text editor application from my terminal
-THEN I find that my JavaScript files have been bundled using webpack
-WHEN I run my webpack plugins
-THEN I find that I have a generated HTML file, service worker, and a manifest file
-WHEN I use next-gen JavaScript in my application
-THEN I find that the text editor still functions in the browser without errors
-WHEN I open the text editor
-THEN I find that IndexedDB has immediately created a database storage
-WHEN I enter content and subsequently click off of the DOM window
-THEN I find that the content in the text editor has been saved with IndexedDB
-WHEN I reopen the text editor after closing it
-THEN I find that the content in the text editor has been retrieved from our IndexedDB
-WHEN I click on the Install button
-THEN I download my web application as an icon on my desktop
-WHEN I load my web application
-THEN I should have a registered service worker using workbox
-WHEN I register a service worker
-THEN I should have my static assets pre cached upon loading along with subsequent pages and static assets
-WHEN I deploy to Heroku
-THEN I should have proper build scripts for a webpack application
+## Title
+ Porgressive Web Application - Text Editer<br />
+  
+
+  ## Description
+  The goal of this assignment was to create a text editer application that can be used offline to make notes so as to dislpay how progressive web applications work. To start the application you will run "npm run start" from the root directory and you should be able to see the backend start up. The application uses a webpack plugin to bundle the JavaScript files, generate the HTML file, service worker and mainfest files. Try and use the next-gen JavaScript in the application and it should be able to function in the browser without any errors. The application uses IndexedDB to create the database storage, this way if you enter content in the text editor and click off the DOM window the content can be save there. Finally, I deployed the package on Heroku and until it becomes to expensive to keep up as you can open the application on the deployed link.
+
+   <br />
+ 
+  ## Table of Contents
+  - [Title](#title)
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contributors](#contributors)
+  - [Tests](#tests)
+  - [Questions](#questions)
+
+  ## Installation
+webpack <br> 
+## Usage
+This application is used to take notes offline to show how a PWA works.
+
+
+
+## License
+
+This application is covered by the undefined license. 
+## Contributors
+In this section I would put  list of all the people that contributed to the creation of the application. This time I, Anthony Offor, was the primary contributor to the application; secondary contributor were the teaching assistants during the program.
+
+## Testing
+
+## Deployed Link
+https://sleepy-savannah-02735.herokuapp.com 
+
+## Questions
+If you have any further questions you can contact me on:<br />
+  -GitHub: [Tonyoffor](https://github.com/Tonyoffor)<br />
+<br />
+  -Email: tonyc.offor@gmail.com<br /><br />
+  
 
 
 
 
-npm i -- save-dev webpack-cli  used to install dependences 
+
+
+
+
+
+
+
+
+
